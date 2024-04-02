@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --text-color: #4970db;
+    --snd-bf-color: #262B40;
+    --bg-color: ;
+    --main-color: #db9b24;
+}
+
+html {
+    font-size: 75%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 700;
+    cursor: default;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    font-weight: 700;
+
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: var(--text-color);
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+}
+
+.Visualization {
+    display: flex;
+  }
+  
+  .visualization-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .zebrafish-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .zebrafish-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+.visualization-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.visualization-content h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+
+
+.visualization-content p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: justify;
+    color: #262B40;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.ref-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 60px;
+
+}
+
+.ref-content h3 {
+    font-size: 3rem;
+    font-weight: 700;
+
+    margin-bottom: 40px;
+    
+}
+
+.ref-content a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #191597;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.ref-image img {
+    width: 50vh;
+    position: fixed; 
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
