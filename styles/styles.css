@@ -195,15 +195,7 @@ footer {
     border-bottom: 50px solid green;
 }
 
-footer {
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(8, 8, 8); 
-    padding: 20px 0;
-}
+
 
 #playground {
     position: relative;
