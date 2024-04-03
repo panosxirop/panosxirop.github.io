@@ -197,7 +197,12 @@ footer {
 
 footer {
     text-align: center;
-    margin-top: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(8, 8, 8); 
+    padding: 20px 0;
 }
 
 #playground {
